@@ -26,6 +26,9 @@ class ValidatorImpl: Validator {
     }
     
     func validateMinute(minute: String) -> Int? {
+        if minute.count != 2 {
+            return nil
+        }
         if let value = Int(minute), (value >= 0 && value <= 60) {
             return value
         }

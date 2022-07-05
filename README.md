@@ -1,6 +1,8 @@
 # Cron Parser
 
 This project contains the cron parser project for element
+**Note** 
+Default config is in the resources folder
 
 **Project structure**
 This section contains the various folder description
