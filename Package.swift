@@ -18,7 +18,7 @@ let package = Package(
         .executableTarget(
             name: "cronparser",
             dependencies: [.product(name: "ArgumentParser", package: "swift-argument-parser")],
-            resources: [.process("SupportFiles/Localization"), .process("Resources")]
+            resources: [.process("Resources")]
             ),
         .testTarget(
             name: "cronparserTests",
