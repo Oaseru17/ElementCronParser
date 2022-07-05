@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Note: minutes in 60 whole number
+// Note: minutes is whole number
 // Hours are support in 24 hours format
     // -1 highlights that the value should be repeated every single unit 
 struct Job {
