@@ -42,7 +42,7 @@ final class ValidatorTest: XCTestCase {
         XCTAssertNil(validator.validateMinute(minute: "RE"))
         XCTAssertNil(validator.validateMinute(minute: "-"))
         XCTAssertNil(validator.validateMinute(minute: "*X"))
-        XCTAssertNotNil(validator.validateMinute(minute: "5"))
+        XCTAssertNil(validator.validateMinute(minute: "5"))
         XCTAssertNotNil(validator.validateMinute(minute: "15"))
         XCTAssertNotNil(validator.validateMinute(minute: "55"))
         XCTAssertNotNil(validator.validateMinute(minute: "25"))
