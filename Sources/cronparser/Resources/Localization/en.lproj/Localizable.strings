@@ -1,7 +1,7 @@
 "missingConfig" = "Error: The configuration file is missing. Please provide one in the root directory of the executable";
 "usingDefaultConfig" = "Warning: No custom configuration available using default configuration";
 "errorParseLine" = "Warning: Cannot parse line, please confirm the format as 'min' 'hour' 'script' for: ";
-"errorParseMinute" = "Warning: Cannot parse minute value, please confirm that min is within range 0-60 or * for: ";
-"errorParseHour" = "Warning: Cannot parse hour value, please confirm that hour is within range 0-24 or * for: ";
+"errorParseMinute" = "Warning: Cannot parse minute value, please confirm that min is within range 0-59 or * for: ";
+"errorParseHour" = "Warning: Cannot parse hour value, please confirm that hour is within range 0-23 or * for: ";
 "errorParseScript" = "Warning: Cannot parse script value, please confirm that the script is valid for: ";
 "errorValidatingInput" = "Error: An error occurred validating input please confirm that input matches this format HH:MM";

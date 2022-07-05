@@ -18,7 +18,6 @@ class ValidatorImpl: Validator {
     static let shared = ValidatorImpl()
     
     func validateHour(hour: String) -> Int? {
-        
         if let value = Int(hour), (value >= 0 && value <= 24) {
             return value
         }
